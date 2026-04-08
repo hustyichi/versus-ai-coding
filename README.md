@@ -107,15 +107,6 @@ Each methodology should be tested under controlled conditions:
    - Single session (no restarting with context from previous attempts)
 5. **Recording**: Full session log, including all tool calls and outputs
 
-### Recommended Test Matrix
-
-| | Claude Sonnet 4.6 | Claude Opus 4.6 | GPT-4.1 | o3 |
-|---|---|---|---|---|
-| Superpowers | | | | |
-| GSD | | | | |
-| ECC | | | | |
-| Oh My Codex | | | |
-
 ## Results Format
 
 Each methodology + model combination is maintained on a **separate branch**, with the branch name following the format `{methodology}_{model}`:
